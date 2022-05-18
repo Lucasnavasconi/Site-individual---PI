@@ -7,24 +7,25 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-.spfc{
+.spfc {
   display: flex;
   color: #000000;
   width: fit-content;
   font-weight: 500;
   font-size: 25px;
-  margin-left:5% ;
+  margin-left: 5%;
 }
 
 .logo {
   font-size: 12px;
   justify-content: space-between;
   align-items: center;
-  display: flex ;
+  display: flex;
   margin-top: 1%;
   margin-right: 2%;
 }
-.logo:hover{
+
+.logo:hover {
   transform: scale(1.05);
 }
 
@@ -75,12 +76,12 @@ body {
 
 .banner {
   height: fit-content;
-  padding: 40px 0;
+  padding: 50px 0;
   color: rgb(255, 255, 255);
   background-image: url("../Imagens/estadio3.jpg");
   background-size: cover;
   padding-left: 40px;
-  
+
 }
 
 
@@ -88,14 +89,14 @@ body {
 
 .banner .container {
   height: 400px;
-  font-size: 30px;
+  font-size: 20px;
   justify-content: center;
   align-items: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
-.tamanho-conteudo { 
+.tamanho-conteudo {
   height: fit-content !important;
 }
 
@@ -123,7 +124,7 @@ body {
   color: palevioletred;
   align-items: center;
   border-radius: 4px;
-  
+
 }
 
 .card {
@@ -149,7 +150,7 @@ button {
 
 /* FORMULARIO */
 
-.alerta_erro{
+.alerta_erro {
   display: flex;
   justify-content: flex-end;
 }
@@ -166,7 +167,7 @@ button {
   margin-right: 10%;
 }
 
-.card_erro #mensagem_erro{
+.card_erro #mensagem_erro {
   font-weight: 500;
   font-size: 20px;
 }
@@ -217,37 +218,64 @@ input {
 
 /* pagina extra - simulador */
 .historia {
-  background-image: url(../Imagens/facebook-spfc.jpg);
+  background-image: url(../Imagens/Sao-Paulo-fc-wallpaper-by-rasecsz-cb-Free-on-ZEDGEtm.jpg);
   color: #ffffff;
-  padding: 40px;
+  padding: 50px;
 }
 
 
 /* FOOTER */
-
-.footer {
-  background-color: #000000;
-  height: 150px;
-  color: #fff;
+.rodape{
+  padding: 10px;
+  border-top: 0.4px solid #fff;
+  background-color: rgb(0, 0, 0);
   display: flex;
+}
+
+.rodape-conteudo {
+  flex-direction: row;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 15px;
+  color: rgb(255, 255, 255);
+  justify-content: space-around;
 }
 
-.footer .container {
-  justify-content: center;
-  width: 50%;
-}
-
-
-.rodape-escrita-titulo{
-  font-size: 24px;
+.rodape-conteudo-titulo {
   font-weight: bold;
+  color: rgb(255, 0, 0);
+  font-size: 25px;
   flex-direction: column;
   align-items: center;
-  display: flex;
-  padding-left: 200px;
 }
 
-.numero{
+.rodape-conteudo-ultimo {
+  color: rgb(255, 255, 255);
+  margin-top: -20px;
+}
+/* Fim redes sociais */
+
+/* começo socio torcedor */
+.meio{
+  padding-top: 100px;
+  border-top: 0.4px solid #fff;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  margin-left: 300px;
+}
+
+
+.titulo-meio{
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  color: rgb(255, 0, 0);
+  margin-left: 244px;
+}
+
+.titulo-meio-fechamento{
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-left: 250px;
   align-items: center;
+  display: flex;
 }

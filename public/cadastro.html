@@ -25,7 +25,8 @@
     <!--header inicio-->
     <div class="header">
         <div class="container">
-            <h1 class="titulo">AcquaTec</h1>
+            <img src="./Imagens/simbolo.jpg" alt="Logo Imagem" height="70px">
+            <h2 class="titulo">SPFC</h2>
             <ul class="navbar">
                 <li>
                     <a href="./index.html">
@@ -35,7 +36,6 @@
                 <li>
                     <a href="./simulador.html">História</a>
                 </li>
-                <li>|</li>
                 <li>
                     <a href="./login.html">Titulos</a>
                 </li>
@@ -91,9 +91,17 @@
     </div>
 
     <!--footer inicio-->
-    <div class="footer">
-        <div class="container">
-            <h4>Feito com amor por um aluno &hearts;SPTech &copy; 2022</h4>
+    <div class="rodape">
+        <div class="rodape-conteudo">
+            <p class="rodape-conteudo-titulo">Redes Sociais:</p>
+            <p class="conteudo-rodape-ultimo">Youtube: @SãoPaulo_Oficial</p>
+            <p class="conteudo-rodape-ultimo">Instragram: @SãoPaulo_Oficial</p>
+        </div>
+
+        <div class="Meio">
+            <p class="titulo-meio">Sócio Torcedor:</p>
+            <p class="titulo-meio-fechamento">Ingressos</p>
+            <p class="titulo-meio-fechamento">Próximos jogos</p>
         </div>
     </div>
     <!--footer fim-->
@@ -116,7 +124,7 @@
 
         if (nomeVar == "" || emailVar == "" || senhaVar == "" || confirmacaoSenhaVar == "") {
             cardErro.style.display = "block"
-            mensagem_erro.innerHTML = "(Mensagem de erro para todos os campos em branco)";
+            mensagem_erro.innerHTML = "Insira seus dados!";
 
             finalizarAguardar();
             return false;
@@ -145,7 +153,7 @@
             if (resposta.ok) {
                 cardErro.style.display = "block";
 
-                mensagem_erro.innerHTML = "Cadastro realizado com sucesso! Redirecionando para tela de Login...";
+                mensagem_erro.innerHTML = "Cadastro realizado com sucesso!";
 
                 setTimeout(() => {
                     window.location = "login.html";

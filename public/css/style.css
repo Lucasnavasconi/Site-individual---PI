@@ -84,11 +84,13 @@ a:hover{
 .titulo {
   color: #000000;
   width: fit-content;
-  font-weight: 500;
   font-size: 25px;
   margin-bottom: 10px;
   gap: 10px;
+  margin-right: 450px;
 }
+
+
 
 
 
@@ -97,12 +99,12 @@ h2.titulo {
   color: #000000;
   width: fit-content;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 22px;
   margin-bottom: 10px;
   gap: 10px;
   font-weight: bold;
   align-items: baseline;
-  margin-right: 500px;
+  margin-right: 504px;
 }
 
 .img {
@@ -120,7 +122,6 @@ h2.titulo {
   background-image: url("../Imagens/uWoJUI.webp");
   background-size: cover;
   padding-left: 40px;
-
 }
 
 

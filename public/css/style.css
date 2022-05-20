@@ -95,7 +95,7 @@ align-items: center;
 
 .banner {
   height: fit-content;
-  padding: 50px 0;
+  padding: 40px 0;
   color: rgb(255, 255, 255);
   background-image: url("../Imagens/uWoJUI.webp");
   background-size: cover;

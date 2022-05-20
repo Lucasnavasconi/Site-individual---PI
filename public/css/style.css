@@ -69,7 +69,14 @@ body {
   list-style: none;
   color: #000000;
   font-size: 20px;
+
 }
+
+  .agora {
+    border: #000000 solid 0.5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
 
 
 .titulo {

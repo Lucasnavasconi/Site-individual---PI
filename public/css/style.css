@@ -17,7 +17,7 @@ body {
   font-weight: bold;
 }
 
-.b{
+.b {
   font-size: 13px;
   align-items: center;
 }
@@ -43,6 +43,7 @@ body {
   align-items: baseline;
 }
 
+
 .header {
   border-bottom: 3px solid #ffffff;
 }
@@ -65,18 +66,26 @@ body {
   width: 300px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style: none;
   color: #000000;
   font-size: 20px;
-
 }
 
-  .agora {
-    border: #000000 solid 0.5vh;
-    padding-left: 1vw;
-    padding-right: 1vw;
-  }
+a:hover{
+  width: 220px;
+  height: 75px;
+  font-size: 25px;
+  border-radius: 0;
+  transition-duration: 0.5s;
+}
+
+.agora {
+  border: #000000 solid 0.3vh;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+
+}
 
 
 .titulo {
@@ -88,12 +97,23 @@ body {
   gap: 10px;
 }
 
+
+
 /* Cadastro */
-h2.titulo{
-font-size: 25px;
-padding-right: 55%;
-font-weight: bold;
-align-items: center;
+h2.titulo {
+  color: #000000;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 10px;
+  gap: 10px;
+  font-weight: bold;
+  align-items: baseline;
+  margin-right: 380px;
+}
+
+.img {
+  align-items: center;
 }
 
 
@@ -248,18 +268,18 @@ input {
   padding: 50px;
 }
 
-.sua-historia{
+.sua-historia {
   align-items: center;
 }
 
-  .container{
-    margin-left: 13%;
-    align-items: baseline;
-    font-size: 15px;
-  }
+.container {
+  margin-left: 13%;
+  align-items: baseline;
+  font-size: 15px;
+}
 
 /* FOOTER */
-.rodape{
+.rodape {
   padding: 10px;
   border-top: 0.4px solid #fff;
   background-color: rgb(0, 0, 0);
@@ -286,33 +306,35 @@ input {
   color: rgb(255, 255, 255);
   margin-top: -20px;
 }
+
 /* Fim redes sociais */
 
 /* começo socio torcedor */
-.meio{
-  padding-top: 100px;
+.meio {
+  padding-top: 130px;
   border-top: 0.4px solid #fff;
   background-color: rgb(0, 0, 0);
   text-align: center;
-  margin-left: 350px;
+  margin-left: 400px;
 }
 
 
-.titulo-meio{
+.titulo-meio {
   font-weight: bold;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 25px;
   color: rgb(255, 0, 0);
-  margin-left: 750px;
+  margin-left: 800px;
 }
 
-.titulo-meio-fechamento{
+.titulo-meio-fechamento {
   margin-top: 17px;
   font-weight: bold;
   color: rgb(255, 255, 255);
   font-size: 15px;
-  margin-left: 800px;
+  margin-left: 850px;
   align-items: center;
   display: flex;
 }
+
 /* fim socio torcedor */

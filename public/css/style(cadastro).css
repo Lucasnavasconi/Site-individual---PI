@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow', "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.spfc {
+  display: flex;
+  color: #000000;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 23px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.b {
+  font-size: 13px;
+  align-items: center;
+}
+
+
+.logo {
+  font-size: 12px;
+  justify-content: space-between;
+  align-items: baseline;
+  display: flex;
+  margin-top: 2%;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  font-size: 20px;
+  align-items: baseline;
+}
+
+
+.header {
+  border-bottom: 3px solid #ffffff;
+margin-right: 720px;
+}
+.header .container {
+  justify-content: space-between;
+  width: 90vw;
+}
+
+.header a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.agora {
+  font-weight: 800;
+}
+
+
+.navbar {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  color: #000000;
+  font-size: 20px;
+}
+
+a:hover{
+  width: 220px;
+  height: 75px;
+  font-size: 25px;
+  border-radius: 0;
+  transition-duration: 0.5s;
+}
+
+.titulo {
+  color: #000000;
+  width: fit-content;
+  font-size: 25px;
+  margin-bottom: 10px;
+  gap: 10px;
+  margin-right: 450px;
+}
+
+
+
+
+
+/* Cadastro */
+h2.titulo {
+  color: #000000;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 10px;
+  gap: 10px;
+  font-weight: bold;
+  align-items: baseline;
+  margin-right: 504px;
+}
+
+.img {
+  align-items: center;
+}
+
+
+
+/* BANNER */
+
+.banner {
+  height: fit-content;
+  padding: 40px 0;
+  color: rgb(255, 255, 255);
+  background-image: url("../Imagens/E8deX0MXsAIEzsS.jpg");
+  background-size: cover;
+  padding-left: 40px;
+}
+
+
+
+
+.banner .container {
+  height: 400px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.tamanho-conteudo {
+  height: fit-content !important;
+}
+
+.banner p {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  width: 280px;
+  font-size: 36px;
+}
+
+.banner .container span {
+  font-weight: 800;
+}
+
+
+/* LOGIN */
+
+.banner .container .card {
+  background-color: #ffffff;
+  height: fit-content;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 0, 0);
+  align-items: center;
+  border-radius: 4px;
+
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card h2 {
+  font-size: 30px;
+}
+
+.card h4 {
+  font-size: 16px;
+}
+
+.banner #div_erros_login {
+  margin-top: 15px;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* FORMULARIO */
+
+.alerta_erro {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card_erro {
+  display: none;
+  background-color: #fff;
+  color: black;
+  width: 230px;
+  border-radius: 4px;
+  border: #000000 3px solid;
+  padding: 10px;
+  margin-right: 75%;
+}
+
+.card_erro #mensagem_erro {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.formulario .tipo_campo {
+  font-size: 20px;
+  font-weight: 600 !important;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+  border: 2px solid #000000;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.btn {
+  font-family: "Barlow", sans-serif;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 15px;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  width: 120px;
+  align-self: center;
+  margin-top: 5px;
+}
+
+.btn:hover{
+  transform: scale(1.06);
+}
+
+.loading-div {
+  width: 50px;
+  margin: auto;
+  display: none;
+}
+
+.loading-div img {
+  height: 50px;
+  width: 50px;
+}
+
+
+/* pagina extra - simulador */
+.historia {
+  background-image: url(../Imagens/Sao-Paulo-fc-wallpaper-by-rasecsz-cb-Free-on-ZEDGEtm.jpg);
+  color: #ffffff;
+  padding: 50px;
+}
+
+.sua-historia {
+  align-items: center;
+}
+
+.container {
+  margin-left: 13%;
+  align-items: baseline;
+  font-size: 15px;
+}
+
+/* FOOTER */
+.rodape {
+  padding: 10px;
+  border-top: 0.4px solid #fff;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+}
+
+.rodape-conteudo {
+  flex-direction: row;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  justify-content: space-around;
+}
+
+.rodape-conteudo-titulo {
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+  font-size: 25px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape-conteudo-ultimo {
+  color: rgb(255, 255, 255);
+  margin-top: -20px;
+}
+
+/* Fim redes sociais */
+
+/* começo socio torcedor */
+.meio {
+  padding-top: 100px;
+  border-top: 0.4px solid #fff;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  margin-left: 600px;
+}
+
+
+.titulo-meio {
+  font-weight: bold;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  color: rgb(255, 0, 0);
+  margin-left: 806px;
+}
+
+.titulo-meio-fechamento {
+  margin-top: 17px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  margin-left: 860px;
+  align-items: center;
+  display: flex;
+}
+
+/* fim socio torcedor */

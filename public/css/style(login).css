@@ -119,7 +119,7 @@ h2.titulo {
   height: fit-content;
   padding: 40px 0;
   color: rgb(255, 255, 255);
-  background-image: url("../Imagens/foto\ cadastro.jpg");
+  background-image: url("../Imagens/d4jxaaewkaemnrn.jpg");
   background-size: cover;
   padding-left: 40px;
 }
@@ -328,5 +328,29 @@ input {
   color: rgb(255, 0, 0);
   justify-content: space-around;
 }
+
+.img1{
+  margin-left: 20%;
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.img1:hover{
+  transition: 1s;
+  width: 60px;
+}
+
+.img2{
+  margin-left: 18%;
+  width: 50px;
+}
+
+.img2:hover{
+  transition: 1s;
+  width: 60px;
+}
+
+
+
 
 

@@ -280,7 +280,7 @@ input {
 
 .footer {
   margin: 0%;
-  background-color: #32b9cd;
+  background-color: #000000;
   height: 180px;
   color: #fff;
   display: flex;
@@ -314,6 +314,7 @@ input {
 .ma_footer{
   font-family: Trattatello, fantasy;
   font-size: 20px;
+  color: red;
 }
 
 .torcedor{
@@ -324,7 +325,7 @@ input {
   flex-direction: row;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 20px;
-  color: white;
+  color: rgb(255, 0, 0);
   justify-content: space-around;
 }
 

@@ -119,7 +119,7 @@ h2.titulo {
   height: fit-content;
   padding: 40px 0;
   color: rgb(255, 255, 255);
-  background-image: url("../Imagens/E8deX0MXsAIEzsS.jpg");
+  background-image: url("../Imagens/foto\ cadastro.jpg");
   background-size: cover;
   padding-left: 40px;
 }
@@ -280,7 +280,7 @@ input {
 
 .footer {
   margin: 0%;
-  background-color: #32b9cd;
+  background-color: #000000;
   height: 180px;
   color: #fff;
   display: flex;
@@ -294,13 +294,17 @@ input {
 
 .footer .content1 {
   display: flex;
+  align-items: flex-start;
   justify-content: space-between;
-  padding: 0 0 0 100px;
+  margin-left: 6%;
 }
 
 .mapouter{
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
   text-align: center;
-  padding: 0 0 0 80px;
+  margin-right: 6%;
 }
 
 .content2{
@@ -310,13 +314,19 @@ input {
 .ma_footer{
   font-family: Trattatello, fantasy;
   font-size: 20px;
-  padding: 0px 20px 0 20px;
+  color: red;
+}
+
+.torcedor{
+  align-items: flex-start;
 }
 
 .redes {
   flex-direction: row;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 20px;
-  color: white;
+  color: rgb(255, 0, 0);
   justify-content: space-around;
 }
+
+

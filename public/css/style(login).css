@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+a{
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -119,7 +123,7 @@ h2.titulo {
   height: fit-content;
   padding: 40px 0;
   color: rgb(255, 255, 255);
-  background-image: url("../Imagens/d4jxaaewkaemnrn.jpg");
+  background-image: url("../Imagens/uWoJUI.webp");
   background-size: cover;
   padding-left: 40px;
 }
@@ -307,6 +311,7 @@ input {
   margin-right: 6%;
 }
 
+
 .content2{
   margin-top: 135px;
 }
@@ -319,6 +324,12 @@ input {
 
 .torcedor{
   align-items: flex-start;
+}
+
+.a_torcedor{
+  color: #fff;
+  transition: 2s;
+  width: 50px;
 }
 
 .redes {

@@ -116,7 +116,6 @@ h2.titulo {
 }
 
 
-
 /* BANNER */
 
 .banner {
@@ -126,6 +125,7 @@ h2.titulo {
   background-image: url("../Imagens/uWoJUI.webp");
   background-size: cover;
   padding-left: 40px;
+ padding: 75px;
 }
 
 
@@ -203,7 +203,7 @@ button {
   display: none;
   background-color: #fff;
   color: black;
-  width: 230px;
+  width: 160px;
   border-radius: 4px;
   border: #000000 3px solid;
   padding: 10px;

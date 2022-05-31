@@ -57,7 +57,7 @@ body {
   color: #444444;
   background-color: #f1f1f1;
   margin: 0;
-  background-image: url(../Imagens/HD-wallpaper-sao-paulo-morumbi-tricolor-sp-spfc.jpg);
+  background-image: url(../Imagens/985352.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -90,9 +90,10 @@ h3 {
 
 .questions_box {
   background-color: #ffffff;
-  padding: 60px;
+  padding: 70px;
   text-align: left;
-  max-width: 960px;
+  max-width: 1000px;
+  
 }
 
 .button {
@@ -130,7 +131,7 @@ h3 {
 }
 
 #progress_bar {
-  background-color: #000000;
+  background-color: #ff0000;
   width: 20%;
   height: 10px;
   transition: all 100ms ease-in-out;

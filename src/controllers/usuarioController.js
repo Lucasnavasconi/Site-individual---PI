@@ -28,11 +28,16 @@ function entrar(req, res) {
     var email = req.body.emailServer;
     var senha = req.body.senhaServer;
 
+
+
     if (email == undefined) {
         res.status(400).send("Seu email está indefinida!");
     } else if (senha == undefined) {
         res.status(400).send("Sua senha está indefinida!");
+    }  else if (senha == undefined) {
+        res.status(400).send("Sua senha está indefinida!");
     } else {
+        
         
         usuarioModel.entrar(email, senha)
             .then(
@@ -65,6 +70,7 @@ function cadastrar(req, res) {
     var nome = req.body.nomeServer;
     var email = req.body.emailServer;
     var senha = req.body.senhaServer;
+    var pontuacao = req.body.pontuacaoServer;
 
     // Faça as validações dos valores
     if (nome == undefined) {
@@ -73,10 +79,12 @@ function cadastrar(req, res) {
         res.status(400).send("Seu email está undefined!");
     } else if (senha == undefined) {
         res.status(400).send("Sua senha está undefined!");
+    } else if (pontuacao== undefined) {
+        res.status(400).send("Sua Pontuação está undefined!");
     } else {
         
         // Passe os valores como parâmetro e vá para o arquivo usuarioModel.js
-        usuarioModel.cadastrar(nome, email, senha)
+        usuarioModel.cadastrar(nome, email, senha, pontuacao)
             .then(
                 function (resultado) {
                     res.json(resultado);

@@ -27,7 +27,7 @@
         <div class="container">
             <img src="./Imagens/simbolo.jpg" alt="Logo Imagem" height="70px">
             <h2 class="titulo">São Paulo Futebol Clube</h2>
-            
+
             <ul class="navbar">
                 <li>
                     <a href="./index.html">
@@ -77,6 +77,16 @@
                     <span class="tipo_campo">Confirmação da Senha:</span>
                     <input id="confirmacao_senha_input" type="password" placeholder="******">
 
+                   <select name="" id="pontuacao_sel">
+                       <option value="">Sua Pontuação</option>
+                       <option value="0">0 Pontos</option>
+                       <option value="2">2 Pontos</option>
+                       <option value="4">4 Pontos</option>
+                       <option value="6">6 Pontos</option>
+                       <option value="8">8 Pontos</option>
+                       <option value="10">10 Pontos</optin>
+                   </select>
+                   
                     <button class="btn" onclick="cadastrar()">Cadastrar</button>
 
                 </div>
@@ -96,22 +106,26 @@
         <div class="content1">
             <div>
                 <p class="redes">Redes Sociais:</p>
-                <a href="https://www.youtube.com/spfctv" target="_blank"><img class= "img1"
-                        src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-5-2.png" alt=""  ></a>
+                <a href="https://www.youtube.com/spfctv" target="_blank"><img class="img1"
+                        src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-5-2.png" alt=""></a>
                 <br><br>
-                <a  href="https://www.instagram.com/saopaulofc/" target="_blank"><img class="img2" src="./Imagens/instagram.png"   ></a>
+                <a href="https://www.instagram.com/saopaulofc/" target="_blank"><img class="img2"
+                        src="./Imagens/instagram.png"></a>
             </div>
 
             <div class="content2">
-                <p class="h4_footer">São Paulo Futebol Clube © 2022 - Todos os direitos reservados - Proteção de Dados</p>
+                <p class="h4_footer">São Paulo Futebol Clube © 2022 - Todos os direitos reservados - Proteção de Dados
+                </p>
             </div>
 
             <div class="mapouter">
                 <p class="ma_footer">Sócio Torcedor:</p>
-               <p class="torcedor"> <a class="a_torcedor" href="http://www.saopaulofc.net/noticias/noticias/ingressos" target="_blank">Ingressos</a></p>
-                <p> <a class="a_torcedor" href="https://www.placardefutebol.com.br/time/sao-paulo/proximos-jogos" target="_blank">Próximos jogos</a></p>
-                </div>
+                <p class="torcedor"> <a class="a_torcedor" href="http://www.saopaulofc.net/noticias/noticias/ingressos"
+                        target="_blank">Ingressos</a></p>
+                <p> <a class="a_torcedor" href="https://www.placardefutebol.com.br/time/sao-paulo/proximos-jogos"
+                        target="_blank">Próximos jogos</a></p>
             </div>
+        </div>
         </div>
 
 
@@ -133,8 +147,9 @@
         var emailVar = email_input.value;
         var senhaVar = senha_input.value;
         var confirmacaoSenhaVar = confirmacao_senha_input.value;
+        var pontuacaoVar = pontuacao_sel.value;
 
-        if (nomeVar == "" || emailVar == "" || senhaVar == "" || confirmacaoSenhaVar == "") {
+        if (nomeVar == "" || emailVar == "" || senhaVar == "" || confirmacaoSenhaVar == "" || pontuacaoVar == "") {
             cardErro.style.display = "block"
             mensagem_erro.innerHTML = "Insira seus dados!";
 
@@ -156,7 +171,8 @@
                 // Agora vá para o arquivo routes/usuario.js
                 nomeServer: nomeVar,
                 emailServer: emailVar,
-                senhaServer: senhaVar
+                senhaServer: senhaVar,
+                pontuacaoServer: pontuacaoVar
             })
         }).then(function (resposta) {
 

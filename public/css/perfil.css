@@ -4,6 +4,11 @@ a{
   text-decoration: none;
 }
 
+.historia{
+  background-image: url(../Imagens/Sao-Paulo-fc-wallpaper-by-rasecsz-cb-Free-on-ZEDGEtm.jpg);
+  color: white;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -40,7 +45,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 80%;
   margin: auto;
   display: flex;
   font-size: 20px;
@@ -60,9 +65,7 @@ margin-right: 720px;
 .header a {
   text-decoration: none;
   color: #000000;
-  justify-content: space-between;
 }
-
 
 .agora {
   font-weight: 800;
@@ -70,7 +73,7 @@ margin-right: 720px;
 
 
 .navbar {
-  width: 335px;
+  width: 300px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -87,27 +90,6 @@ margin-right: 720px;
   margin-bottom: 10px;
   gap: 10px;
   margin-right: 450px;
-}
-
-
-
-
-
-/* Cadastro */
-h2.titulo {
-  color: #000000;
-  width: fit-content;
-  font-weight: 500;
-  font-size: 22px;
-  margin-bottom: 10px;
-  gap: 10px;
-  font-weight: bold;
-  align-items: baseline;
-  margin-right: 504px;
-}
-
-.img {
-  align-items: center;
 }
 
 
@@ -153,128 +135,6 @@ h2.titulo {
 }
 
 
-/* LOGIN */
-
-.banner .container .card {
-  background-color: #ffffff;
-  height: fit-content;
-  width: 400px;
-  display: flex;
-  flex-direction: column;
-  color: rgb(255, 0, 0);
-  align-items: center;
-  border-radius: 4px;
-
-}
-
-.card {
-  display: flex;
-  justify-content: space-around;
-}
-
-.card h2 {
-  font-size: 30px;
-}
-
-.card h4 {
-  font-size: 16px;
-}
-
-.banner #div_erros_login {
-  margin-top: 15px;
-}
-
-button {
-  cursor: pointer;
-}
-
-/* FORMULARIO */
-
-.alerta_erro {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.card_erro {
-  display: none;
-  background-color: #fff;
-  color: black;
-  width: 160px;
-  border-radius: 4px;
-  border: #000000 3px solid;
-  padding: 10px;
-  margin-right: 75%;
-}
-
-.card_erro #mensagem_erro {
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.formulario .tipo_campo {
-  font-size: 20px;
-  font-weight: 600 !important;
-}
-
-.formulario {
-  display: flex;
-  flex-direction: column;
-}
-
-input {
-  margin-bottom: 10px;
-  border: 2px solid #000000;
-  padding: 10px;
-  text-align: center;
-  border-radius: 10px;
-}
-
-.btn {
-  font-family: "Barlow", sans-serif;
-  border: 0;
-  border-radius: 5px;
-  font-weight: 600;
-  font-size: 18px;
-  padding: 10px 15px;
-  color: rgb(255, 255, 255);
-  background-color: #000000;
-  width: 120px;
-  align-self: center;
-  margin-top: 5px;
-}
-
-.btn:hover{
-  transform: scale(1.06);
-}
-
-.loading-div {
-  width: 50px;
-  margin: auto;
-  display: none;
-}
-
-.loading-div img {
-  height: 50px;
-  width: 50px;
-}
-
-
-/* pagina extra - simulador */
-.historia {
-  background-image: url(../Imagens/Sao-Paulo-fc-wallpaper-by-rasecsz-cb-Free-on-ZEDGEtm.jpg);
-  color: #ffffff;
-  padding: 50px;
-}
-
-.sua-historia {
-  align-items: center;
-}
-
-.container {
-  margin-left: 13%;
-  align-items: baseline;
-  font-size: 15px;
-}
 
 /* FOOTER */
 

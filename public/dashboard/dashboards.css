@@ -227,11 +227,6 @@ body {
   padding-top: 10px;
 }
 
-.tituloGraficos {
-  color: rgb(216, 216, 216);
-  display: flex;
-  justify-content: center;
-}
 
 .btn-chart {
   font-family: "Exo 2", sans-serif;

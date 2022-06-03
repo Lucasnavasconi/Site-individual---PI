@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+a{
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow', "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.spfc {
+  display: flex;
+  color: #000000;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 23px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.b {
+  font-size: 13px;
+  align-items: center;
+}
+
+
+.logo {
+  font-size: 12px;
+  justify-content: space-between;
+  align-items: baseline;
+  display: flex;
+  margin-top: 2%;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  font-size: 20px;
+  align-items: baseline;
+}
+
+
+.header {
+  border-bottom: 3px solid #ffffff;
+margin-right: 720px;
+}
+.header .container {
+  justify-content: space-between;
+  width: 90vw;
+}
+
+.header a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.agora {
+  font-weight: 800;
+}
+
+
+.navbar {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  color: #000000;
+  font-size: 20px;
+}
+
+a:hover{
+  width: 220px;
+  height: 75px;
+  font-size: 25px;
+  border-radius: 0;
+  transition-duration: 0.5s;
+}
+
+.titulo {
+  color: #000000;
+  width: fit-content;
+  font-size: 25px;
+  margin-bottom: 10px;
+  gap: 10px;
+  margin-right: 450px;
+}
+
+
+
+/* BANNER */
+
+.banner {
+  height: fit-content;
+  padding: 30px 0;
+  background-color: rgb(255, 255, 255);
+  background-image: url(../Imagens/0eec0c25-53f2-4b83-8038-fae635e4777a.jpg);
+  background-size: cover;
+  padding-left: 40px;
+ padding: 75px;
+}
+
+#canvas_grafico{
+    background-color: #fff;
+
+}
+
+.tituloGraficos {
+    color: rgb(216, 216, 216);
+    display: flex;
+    justify-content: center;
+    border-bottom: white solid 3px;
+}
+
+
+
+.banner .container {
+  height: 400px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.tamanho-conteudo {
+  height: fit-content !important;
+}
+
+.banner p {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  width: 280px;
+  font-size: 36px;
+}
+
+.banner .container span {
+  font-weight: 800;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+  margin: 0%;
+  background-color: #000000;
+  height: 185px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+.footer .container {
+  justify-content: center;
+}
+
+.footer .content1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 6%;
+}
+
+.mapouter{
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+  margin-right: 6%;
+}
+
+
+.content2{
+  margin-top: 110px;
+}
+
+.ma_footer{
+  font-family: Trattatello, fantasy;
+  font-size: 20px;
+  color: red;
+}
+
+.torcedor{
+  align-items: flex-start;
+}
+
+.a_torcedor{
+  color: #fff;
+  transition: 2s;
+  width: 50px;
+}
+
+.redes {
+  flex-direction: row;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+  justify-content: space-around;
+}
+
+.img1{
+  margin-left: 20%;
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.img1:hover{
+  transition: 1s;
+  width: 60px;
+}
+
+.img2{
+  margin-left: 18%;
+  width: 50px;
+}
+
+.img2:hover{
+  transition: 1s;
+  width: 60px;
+}
+
+
+
+
+

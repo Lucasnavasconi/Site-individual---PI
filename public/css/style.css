@@ -40,7 +40,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   margin: auto;
   display: flex;
   font-size: 20px;
@@ -60,6 +60,7 @@ margin-right: 720px;
 .header a {
   text-decoration: none;
   color: #000000;
+  justify-content: space-between;
 }
 
 .agora {
@@ -68,7 +69,7 @@ margin-right: 720px;
 
 
 .navbar {
-  width: 300px;
+  width: 335px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -114,6 +115,7 @@ h2.titulo {
 .img {
   align-items: center;
 }
+
 
 
 /* BANNER */

@@ -68,7 +68,7 @@ margin-right: 720px;
 
 
 .navbar {
-  width: 300px;
+  width: 335px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -261,6 +261,14 @@ input {
   height: 50px;
   width: 50px;
 }
+
+  select#pontuacao_sel{
+    margin-bottom: 10px;
+  border: 2px solid #000000;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  }
 
 
 /* pagina extra - simulador */

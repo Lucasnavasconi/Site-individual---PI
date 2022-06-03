@@ -72,12 +72,12 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
-  color: rgb(255, 0, 0);
+  font-size: 25px;
+  color: rgb(0, 0, 0);
 }
 
 h3 {
-  color: #000000;
+  color: #ff0000;
   font-size: 26px;
 }
 
@@ -89,10 +89,9 @@ h3 {
 
 .questions_box {
   background-color: #ffffff;
-  padding: 70px;
+  padding: 90px;
   text-align: left;
   max-width: 1000px;
-  
 }
 
 .button {

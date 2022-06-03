@@ -25,23 +25,27 @@
     <!--header inicio-->
     <div class="header">
         <div class="container">
-            <img src="./Imagens/simbolo.jpg" alt="Logo Imagem" height="70px">
-            <h2 class="titulo">São Paulo Futebol Clube</h2>
-
+            <div class="logo">
+                <img src="./Imagens/simbolo.jpg" alt="Logo Imagem" height="70px">
+                <div class="spfc"> São Paulo Futebol Clube </div>
+            </div>
             <ul class="navbar">
-                <li>
-                    <a href="./index.html">
-                        Home
-                    </a>
-                </li>
+                <li> <a href="./index.html">Home</a></li>
+                &nbsp;&nbsp;
                 <li>
                     <a href="./simulador.html">História</a>
                 </li>
+                &nbsp;&nbsp;
+                <li>
+                    <a href="./votação.html">Quiz</a>
+                </li>
+                &nbsp;&nbsp;
                 <li>
                     <a href="./login.html">Login</a>
                 </li>
+                &nbsp;&nbsp;
                 <li class="agora">
-                    <a href="./votação.html">Cadastro</a>
+                    Cadastro
                 </li>
             </ul>
         </div>
@@ -78,13 +82,13 @@
                     <input id="confirmacao_senha_input" type="password" placeholder="******">
 
                    <select name="" id="pontuacao_sel">
-                       <option value="">Sua Pontuação</option>
-                       <option value="0">0 Pontos</option>
-                       <option value="2">2 Pontos</option>
-                       <option value="4">4 Pontos</option>
-                       <option value="6">6 Pontos</option>
-                       <option value="8">8 Pontos</option>
-                       <option value="10">10 Pontos</optin>
+                       <option value="Selecione seu Jogador preferido">Selecione seu Jogador preferido</option>
+                       <option value="1">Rogerio Ceni</option>
+                       <option value="2">Lugano</option>
+                       <option value="3">Kaka</option>
+                       <option value="4">Lucas Moura</option>
+                       <option value="5">Hernanes</option>
+                       <option value="6">Rai</optin>
                    </select>
                    
                     <button class="btn" onclick="cadastrar()">Cadastrar</button>
@@ -147,9 +151,9 @@
         var emailVar = email_input.value;
         var senhaVar = senha_input.value;
         var confirmacaoSenhaVar = confirmacao_senha_input.value;
-        var pontuacaoVar = pontuacao_sel.value;
+        var pontuacao_selVar = pontuacao_sel.value;
 
-        if (nomeVar == "" || emailVar == "" || senhaVar == "" || confirmacaoSenhaVar == "" || pontuacaoVar == "") {
+        if (nomeVar == "" || emailVar == "" || senhaVar == "" || confirmacaoSenhaVar == "" || pontuacao_selVar == "") {
             cardErro.style.display = "block"
             mensagem_erro.innerHTML = "Insira seus dados!";
 
@@ -172,7 +176,7 @@
                 nomeServer: nomeVar,
                 emailServer: emailVar,
                 senhaServer: senhaVar,
-                pontuacaoServer: pontuacaoVar
+                pontuacao_selServer: pontuacao_selVar
             })
         }).then(function (resposta) {
 

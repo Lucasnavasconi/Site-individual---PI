@@ -81,16 +81,16 @@
                     <span class="tipo_campo">Confirmação da Senha:</span>
                     <input id="confirmacao_senha_input" type="password" placeholder="******">
 
-                   <select name="" id="pontuacao_sel">
-                       <option value="Selecione seu Jogador preferido">Selecione seu Jogador preferido</option>
-                       <option value="1">Rogerio Ceni</option>
-                       <option value="2">Lugano</option>
-                       <option value="3">Kaka</option>
-                       <option value="4">Lucas Moura</option>
-                       <option value="5">Hernanes</option>
-                       <option value="6">Rai</optin>
-                   </select>
-                   
+                    <select name="" id="pontuacao_sel">
+                        <option value="Selecione seu Jogador preferido">Selecione seu Jogador preferido</option>
+                        <option value="1">Rogerio Ceni</option>
+                        <option value="2">Lugano</option>
+                        <option value="3">Kaka</option>
+                        <option value="4">Lucas Moura</option>
+                        <option value="5">Hernanes</option>
+                        <option value="6">Rai</optin>
+                    </select>
+
                     <button class="btn" onclick="cadastrar()">Cadastrar</button>
 
                 </div>
@@ -157,6 +157,17 @@
             cardErro.style.display = "block"
             mensagem_erro.innerHTML = "Insira seus dados!";
 
+            finalizarAguardar();
+            return false;
+        }
+        else {
+            setInterval(sumirMensagem, 5000)
+        }
+
+        if (emailVar.indexOf("@") == -1 || emailVar.indexOf(".com") == -1) {
+
+            cardErro.style.display = "block"
+            mensagem_erro.innerHTML = (`E-mail inválido! Verifique e tente novamente.`)
             finalizarAguardar();
             return false;
         }

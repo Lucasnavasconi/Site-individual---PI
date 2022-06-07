@@ -93,12 +93,17 @@
 
 </html>
 <script>
+    // inovacoes arq comp
+
+    // funcoes requisito
     function vai() {
         window.location = "cadastro.html";
- }
+    }
 
+    // vetor requisito
     var answers = [];
 
+    // variaveis requisitos
     var question_one = document.getElementById('question-1');
     var question_two = document.getElementById('question-2');
     var question_three = document.getElementById('question-3');
@@ -141,6 +146,7 @@
     }
 
     function getInfoBasedOnScore() {
+        // condicionais requisitos 
         if (totalScore() <= 4) {
             var score_info = "Aiiii Nãoo! precisa estudar mais sobre o nosso Tricolor!"
         } else if (totalScore() >= 6) {

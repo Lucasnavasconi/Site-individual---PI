@@ -140,7 +140,7 @@
     // Esta função *plotarGrafico* usa os dados capturados na função anterior para criar o gráfico
     // Configura o gráfico (cores, tipo, etc), materializa-o na página e, 
     // A função *plotarGrafico* também invoca a função *atualizarGrafico*
-    function plotarGrafico(resposta, fkJogadores) {
+    function plotarGrafico(resposta, fkJogador) {
         console.log('iniciando plotagem do gráfico...');
 
         var dados = {
@@ -167,7 +167,7 @@
 
         for (i = 0; i < resposta.length; i++) {
             var registro = resposta[i];
-            dados.labels.push(registro.nome_jogadores);
+            dados.labels.push(registro.nomeJogador);
             dados.datasets[0].data.push(registro.qtd_votos);
             // dados.datasets[1].data.push(registro.temperatura);
         }
